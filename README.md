@@ -5,6 +5,10 @@
 ## Description
 Web page for an amateur hockey club in Madrid. Page made from an already given design, made in figma. I converted it to html and css.
 
+
+![figmach-1](https://user-images.githubusercontent.com/110480389/233303309-d095b36f-fcef-4ab0-b4f2-a76b71beb67a.png)
+
+
 ## Authors
     
  Felipe Rey
