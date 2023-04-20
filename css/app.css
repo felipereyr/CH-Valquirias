@@ -124,6 +124,11 @@ svg {
   .home__presentacion {
     margin-top: 0;
   }
+  
+   @media screen and (min-width: 1200px){
+            width: 40%;
+            margin-left: 15rem;
+        }
 }
 .home__h2 {
   color: #ffffff;
@@ -177,9 +182,8 @@ svg {
     margin: 5rem;
   }
 }
-@media screen and (min-width: 1200px) {
-  .home__slider {
-    margin: 5rem 0;
+  @media screen and (min-width: 1200px){
+     margin: 5rem 25rem 5rem 0rem;
   }
 }
 .home__slider ul {
