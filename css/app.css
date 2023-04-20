@@ -320,7 +320,7 @@ svg {
 }
 
 .equipo {
-  background: url("/img/bkmorado.png");
+  background: url("../img/bkmorado.png");
   background-position: center;
   background-size: cover;
   display: flex;
