@@ -124,11 +124,13 @@ svg {
   .home__presentacion {
     margin-top: 0;
   }
-  
-   @media screen and (min-width: 1200px){
-            width: 40%;
-            margin-left: 15rem;
-        }
+}
+@media screen and (min-width: 1200px) {
+  .home__presentacion {
+    width: 40%;
+    margin-left: 15rem;
+  }
+}
 }
 .home__h2 {
   color: #ffffff;
