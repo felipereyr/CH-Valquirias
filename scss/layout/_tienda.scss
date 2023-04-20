@@ -1,0 +1,91 @@
+@use 'global/variables' as v;
+
+.tienda{
+    background: linear-gradient(v.$verde, v.$morado);
+    background-position: center;
+    background-size: cover;
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__tienda{
+        display: flex;
+        gap: 2rem;
+
+        @media screen and (min-width: 1200px){
+            gap: 4rem;
+        }
+    }
+
+    &__mercha{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 5rem;
+
+        @media screen and (min-width: 1200px){
+            gap: 1rem;
+        }
+    }
+
+    &__h4{
+        color: v.$white;
+        font-size: 3rem;
+        font-family: v.$font;
+        font-weight: 600;
+        margin-top: 2rem;
+
+        @media screen and (min-width: 1200px){
+            font-size: 4rem;
+        }
+    }
+
+    &__span{
+        color: v.$white;
+        font-size: 1.4rem;
+        font-family: v.$font;
+
+        @media screen and (min-width: 1200px){
+            font-size: 2rem;
+        }
+    }
+
+    &__img{
+        width: 15rem;
+        height: 15rem;
+
+        @media screen and (min-width: 768px){
+            width: 25rem;
+            height: 25rem;
+        }
+
+        @media screen and (min-width: 1200px){
+            width: 35rem;
+            height: 35rem;
+        }
+    }
+
+    &__a{
+        font-size: 1.2rem;
+        font-family: v.$font;
+        color: v.$white;
+        text-transform: uppercase;
+        padding: 1rem 2.5rem;
+        border-radius: 2px;
+        background: linear-gradient(45deg,v.$black, grey);
+        margin: 0.5rem 0rem 3rem 0rem;
+
+        &:hover{
+            color: v.$black;
+            background: linear-gradient(45deg,v.$white, grey);
+        }
+
+        @media screen and (min-width: 1200px){
+            font-size: 1.8rem;
+        }
+    }
+}
